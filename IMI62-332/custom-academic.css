@@ -1,0 +1,81 @@
+/* @theme custom-academic */
+
+@import 'default';
+
+section {
+  font-family: "Segoe UI", "Noto Sans", sans-serif;
+  font-size: 26px;
+  line-height: 1.45;
+  padding: 60px;
+  color: #1a1a1a;
+}
+
+h1, h2, h3 {
+  font-family: "Segoe UI Semibold", "Noto Sans", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  color: #0b3d91; /* Deep blue accent */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #144a9e;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 28px;
+  color: #1d57ac;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+strong {
+  color: #0b3d91;
+}
+
+ul, ol {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+blockquote {
+  border-left: 6px solid #0b3d91;
+  padding-left: 16px;
+  font-style: italic;
+  background: #f2f6fc;
+}
+
+code {
+  background: #eee;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 22px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+table th {
+  background: #0b3d91;
+  color: #fff;
+  padding: 10px;
+}
+
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+footer {
+  color: #666;
+  font-size: 18px;
+  text-align: right;
+}
